@@ -37,13 +37,59 @@ $faq = [
 ?>
 
 <body>
+    <header class="Header">
+        <div class="Header-top">
+            <img src="img/google.png" alt="">
+            <h2>Privacy e termini</h2>
+        </div>
+        <div class="Header-bot">
+            <ul class="Menu">
+                <li>
+                    <a href="#">Introduzione</a>
+                </li>    
+                <li>
+                    <a href="#">Norme sulla privacy</a>
+                </li>    
+                <li>
+                    <a href="#">Termini di servizio</a>
+                </li>    
+                <li>
+                    <a href="#">Tecnologie</a>
+                </li>    
+                <li class="Menu-item is-active">
+                    <a href="#">Domande frequenti</a>
+                </li>    
+            </ul>
+            <a href="#"><h4>Account Google</h4></a>
+        </div>
+    </header>
+
     <main>
-        <div class="container">
+        <div class="u-container">
             <?php foreach ($faq as $k => $data) : ?>
                 <h2><?php echo $data['question']; ?></h2>
                 <p><?php echo $data['answer']; ?></p>
             <?php endforeach ?>
         </div>
     </main>
+
+    <footer>
+        <div class="u-container">
+            <ul>
+                <li>
+                    <a href="#">Google</a>
+                </li>
+                <li>
+                    <a href="#">Tutto su Google</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Termini</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
