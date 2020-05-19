@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title>Domande frequenti</title>
 </head>
 
@@ -35,11 +37,13 @@ $faq = [
 ?>
 
 <body>
-    <?php foreach ($faq as $k => $data) : ?>
-        <h3><?php echo $data['question']; ?></h3>
-        <p><?php echo $data['answer']; ?></p>
-    <?php endforeach ?>
-
-
+    <main>
+        <div class="container">
+            <?php foreach ($faq as $k => $data) : ?>
+                <h2><?php echo $data['question']; ?></h2>
+                <p><?php echo $data['answer']; ?></p>
+            <?php endforeach ?>
+        </div>
+    </main>
 </body>
 </html>

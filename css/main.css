@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 500;
+    color: #3c4043;
+    padding: 64px 0 0 0;
+}
+
+p {
+    line-height: 24px;
+    padding: 20px 0 10px 0;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
