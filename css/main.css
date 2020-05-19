@@ -41,6 +41,14 @@ a {
 
 /* MAIN CONTENT */
 /* Header */
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+}
+
 .Header-top {
     display: flex;
     justify-content: flex-start;
@@ -89,6 +97,11 @@ a {
     border-bottom: 3px solid dodgerblue;
 }
 
+/* Main */
+main {
+    margin-top: 80px;
+}
+
 /* Footer */
 footer {
     background: #f5f5f5;
@@ -107,4 +120,22 @@ footer ul li {
 
 footer ul li:not(:last-of-type)::after {
     content: '\00B7';
+}
+
+footer .u-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .Select {
+    line-height: 45px;;
+}
+
+footer .Select select {
+    width: 100px;
+}
+
+footer .Select i {
+    font-size: 14px;
+    color: #5bc6fd;
 }

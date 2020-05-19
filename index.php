@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap">
     <link rel="stylesheet" href="css/main.css">
     <title>Domande frequenti</title>
 </head>
@@ -89,6 +90,12 @@ $faq = [
                     <a href="#">Termini</a>
                 </li>
             </ul>
+            <div class="Select">
+                <i class="fas fa-comment-alt"></i>
+                <select name="select-lang" id="language">
+                    <option value="Italiano">Italiano</option>
+                </select>
+            </div>
         </div>
     </footer>
 </body>
